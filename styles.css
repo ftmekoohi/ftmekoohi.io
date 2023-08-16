@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url("./img/background.jpg");
+    background-color: rgb(30, 66, 39);
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+/* profile container */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 80px auto;
+    height: 80vh;
+    background: rgba(255, 255, 255, 0.432);
+    border: 1px solid white;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+}
+
+.picture {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    background: url('./img/banner.jpg');
+    background-size: 150%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 160px;
+}
+
+
+.picture>img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 80px auto;
+    border: 1px solid rgb(243, 80, 216);
+    border-radius: 15rem;
+}
+
+.name {
+    width: 150px;
+    margin: 75px auto 0px auto;
+    color: rgb(32, 12, 41);
+    text-align: center;
+}
+
+.detail {
+    margin: -10px auto;
+    color: rgb(90, 15, 124);
+    text-align: center;
+}
+
+.detail p {
+    font-size: 15px;
+}
+
+.coffee {
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.coffee>button {
+    margin: 10px 5px;
+}
+
+
+.name>p {
+    font-size: 20px;
+}
+
+/* skills page styles */
+
+.about {
+    margin: -5px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.about>p {
+    margin-bottom: 1px;
+}
+
+/* social */
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 0px auto;
+    height: 5%;
+}
+
+.social>a {
+    margin: 10px 25px;
+    font-size: 20px;
+}
+
+/* footer styles */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.fa-heart {
+    color: rgb(207, 53, 53);
+}
