@@ -14,8 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: 50px auto;
-    height: 80vh;
+    margin: 30px auto;
+    height: 90vh;
     background: rgba(255, 255, 255, 0.432);
     border: 1px solid white;
     border-radius: 5px;
