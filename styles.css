@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     background-image: url("./background.jpg");
     background-color: rgb(30, 66, 39);
-    background-size: 135%;
+    background-size: 120%;
 }
 
 .modal {
@@ -107,7 +107,6 @@ body {
     margin: 10px auto;
 }
 
-
 .qrcode {
     position: absolute;
     bottom: 0;
@@ -120,7 +119,6 @@ body {
     border-bottom-right-radius: 5px;
 
 }
-
 .qrcode button {
     margin-top: 7px;
 }
@@ -160,12 +158,10 @@ body {
     -webkit-user-select: none;
     touch-action: manipulation;
 }
-
 .button-33:hover {
     box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
     transform: scale(1.05) rotate(-1deg);
 }
-
 .button-8 {
     border: none;
     outline: none;
@@ -179,7 +175,6 @@ body {
     -webkit-user-select: none;
     touch-action: manipulation;
 }
-
 .button-8:before {
     content: "";
     background: linear-gradient(45deg,
@@ -205,21 +200,17 @@ body {
     transition: opacity 0.3s ease-in-out;
     border-radius: 100px;
 }
-
 @keyframes glowing-button-85 {
     0% {
         background-position: 0 0;
     }
-
     50% {
         background-position: 400% 0;
     }
-
     100% {
         background-position: 0 0;
     }
 }
-
 .button-8:after {
     z-index: -1;
     content: "";
