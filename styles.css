@@ -30,32 +30,32 @@ body {
     background-size: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    height: 160px;
+    height: 130px;
 }
 
 
 .picture>img {
     display: block;
-    width: 150px;
-    height: 150px;
-    margin: 80px auto;
+    width: 140px;
+    height: 140px;
+    margin: 60px auto;
     border: 1px solid rgb(243, 80, 216);
     border-radius: 15rem;
 }
 
 .name {
-    width: 150px;
-    margin: 75px auto 0px auto;
+    width: 100%;
+    margin: 85px auto 0px auto;
     color: rgb(32, 12, 41);
     text-align: center;
 }
 
-.name p {
+.name h3 {
     font-family: 'Kanit', sans-serif;
 }
 
 .detail {
-    margin: -10px auto;
+    margin: 0px auto;
     color: rgb(90, 15, 124);
     text-align: center;
 }
@@ -83,7 +83,7 @@ body {
 /* skills page styles */
 
 .about {
-    margin: -5px auto;
+    margin: -15px auto;
     width: 100%;
     text-align: center;
 }
