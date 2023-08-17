@@ -14,8 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: 30px auto;
-    height: 90vh;
+    margin: 40px auto;
+    height: 80vh;
     background: rgba(255, 255, 255, 0.432);
     border: 1px solid white;
     border-radius: 5px;
@@ -39,7 +39,7 @@ body {
     width: 140px;
     height: 140px;
     margin: 60px auto;
-    border: 1px solid rgb(243, 80, 216);
+    border: 2px solid rgb(243, 80, 216);
     border-radius: 15rem;
 }
 
@@ -99,7 +99,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 90%;
-    margin: 0px auto;
+    margin: 15px auto;
 }
 
 .social>button {
